@@ -5,9 +5,9 @@ import { ContactPage } from "../pages/ContactPage";
 export default function Router() {
   return (
     <Routes>
-      <Route path="/" element={<HomePage />} />
-      <Route path="/about-me" element={<AboutPage />} />
-      <Route path="/contact" element={<ContactPage />} />
+      <Route path="/portfolio" element={<HomePage />} />
+      <Route path="/portfolio/about-me" element={<AboutPage />} />
+      <Route path="/portfolio/contact" element={<ContactPage />} />
     </Routes>
   );
 }

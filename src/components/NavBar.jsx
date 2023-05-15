@@ -3,9 +3,9 @@ import { useNavigate, useMatch } from "react-router-dom";
 export const NavBar = () => {
   const navigate = useNavigate();
   const [show, setShow] = useState(false);
-  const about = useMatch("/about-me");
-  const hello = useMatch("/");
-  const contact = useMatch("/contact");
+  const about = useMatch("/portfolio/about-me");
+  const hello = useMatch("/portfolio");
+  const contact = useMatch("/portfolio/contact");
 
   return (
     <nav className="w-full justify-center px-4 lg:p-0  text-gray-400/70 flex h-20  md:text-xl sm:text-lg text-sm font-code">
