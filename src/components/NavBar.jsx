@@ -36,7 +36,7 @@ export const NavBar = () => {
             {" "}
             <span
               onClick={() => {
-                navigate("/");
+                navigate("/portfolio");
                 setShow(false);
               }}
             >
@@ -51,7 +51,7 @@ export const NavBar = () => {
             {" "}
             <span
               onClick={() => {
-                navigate("/about-me");
+                navigate("/portfolio/about-me");
                 setShow(false);
               }}
             >
@@ -65,7 +65,7 @@ export const NavBar = () => {
           >
             <span
               onClick={() => {
-                navigate("/contact");
+                navigate("/portfolio/contact");
                 setShow(false);
               }}
             >
@@ -108,7 +108,7 @@ export const NavBar = () => {
             {" "}
             <span
               onClick={() => {
-                navigate("/");
+                navigate("/portfolio");
                 setShow(false);
               }}
             >
@@ -123,7 +123,7 @@ export const NavBar = () => {
             {" "}
             <span
               onClick={() => {
-                navigate("/about-me");
+                navigate("/portfolio/about-me");
                 setShow(false);
               }}
             >
@@ -137,7 +137,7 @@ export const NavBar = () => {
           >
             <span
               onClick={() => {
-                navigate("/contact");
+                navigate("/portfolio/contact");
                 setShow(false);
               }}
             >
