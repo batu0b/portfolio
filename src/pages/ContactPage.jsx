@@ -1,6 +1,7 @@
 import Cloud from "../assets/cloud.png";
 import SmallLand from "../assets/land.png";
 import TubLand from "../assets/tubland.png";
+import me from "../assets/me.png";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { dark } from "react-syntax-highlighter/dist/esm/styles/hljs";
 export const ContactPage = () => {
@@ -11,7 +12,7 @@ export const ContactPage = () => {
           <div className="flex items-center  gap-4">
             <div className="h-32 w-32 max-lg:h-24 max-lg:w-24  max-md:h-16 max-md:w-16   rounded-full border-2 border-[#414ead] ">
               <img
-                src="public/images/me.png"
+                src={me}
                 alt=""
                 className="rounded-full   h-full w-full"
               />
