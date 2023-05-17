@@ -27,7 +27,7 @@ export const HomePage = () => {
           <span className="text-3xl lg:text-5xl font-code">
             I&apos;m{" "}
             <span className="text-[#4f69d2] uppercase">
-              react.js devolper &gt;
+              react.js developer &gt;
             </span>
           </span>
           <span className="text-[#529955] lg:text-xl md:text-lg underline font-code">
