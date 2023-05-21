@@ -4,7 +4,6 @@ import Tub from "../assets/tubo.png";
 import Land from "../assets/Group 7.png";
 
 export const HomePage = () => {
-
  const  hadnleDownload  = () => {
   fetch('BATUHAN BAHAYETMEZ.pdf').then(response => {
     response.blob().then(blob => {
